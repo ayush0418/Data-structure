@@ -1,1 +1,1 @@
-# This repository contains programs using DATA STRUCTUREI
+# This repository contains programs using DATA STRUCTURE
