@@ -1,1 +1,1 @@
-# This repository contains programs using DATA STRUCTURE
+# Data Structure using C/C++
