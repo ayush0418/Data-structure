@@ -51,3 +51,7 @@ int main()
   else
     cout << "The tree is not a full binary full\n";
 }
+/*
+OUTPUT
+The tree is a full binary tree
+*/
