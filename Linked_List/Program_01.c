@@ -1,5 +1,3 @@
-// Linked list implementation in C
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -39,7 +37,8 @@ int main() {
   two->next = three;
   three->next = NULL;
 
-  // printing node-value
+  /* Save address of first node in head */
   head = one;
+  // printing node-value
   printLinkedlist(head);
 }
