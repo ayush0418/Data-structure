@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Creating a node
 struct Node {
   int data;
   struct Node *next;
@@ -10,7 +9,7 @@ struct Node {
 // Insert Elements in between
 void insertAfter(int item, struct Node *node) {
   if (node == NULL) {
-    printf("\nThe given previous node cannot be NULL");
+    printf("\nThe given previous node cannot be Null");
     return;
   }
 
@@ -31,7 +30,6 @@ void printLinkedList(struct Node *node) {
   }
 }
 
-// Driver program
 int main() {
     struct Node *head;    // This is the first Node
     struct Node *second;  // This is the second Node
