@@ -31,11 +31,14 @@ The circular queue work as follows:
 * Circularly increase the FRONT index by 1
 * For the last element, reset the values of FRONT and REAR to -1
   
+### isEmpty(check for Empty queue)
+* If FRONT == REAR
+
 ### isFull(check for full queue)  
 * Case 1: FRONT = 0 && REAR == SIZE - 1
 * Case 2: FRONT = REAR + 1
 
 The second case happens when REAR starts from 0 due to circular increment and when its value is just 1 less than FRONT, the queue is full.
   
-### isEmpty(check for Empty queue)
-* If FRONT == REAR
+## Circular Queue Complexity Analysis
+* The complexity of the enqueue and dequeue operations of a circular queue is **O(1)** for (array implementations).
